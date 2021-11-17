@@ -34,7 +34,7 @@ function checkDatabase() {
                 }
             });
             // const res = await response.json();
-            console.log(response);
+            // console.log(response);
             if(response.length !== 0) {
                 transaction = db.transaction(["BudgetStore"], "readwrite");
                 const currentStore = transaction.objectStore("BudgetStore");
