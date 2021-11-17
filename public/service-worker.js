@@ -6,7 +6,7 @@ const FILES_TO_CACHE = [
     "/index.html",
     "/assets/css/styles.css",
     "/assets/js/index.js",
-    "/assets/indexedDb.js",
+    "/assets/js/indexedDb.js",
     "/assets/icons/icon-192x192.png",
     "/assets/icons/icon-512x512.png"
 ];
